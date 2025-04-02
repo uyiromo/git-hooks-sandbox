@@ -25,3 +25,4 @@ Set the `core.hooksPath` configuration locally in your Git repository:
 
 ```bash
 git config --local core.hooksPath hooks
+```

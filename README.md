@@ -24,5 +24,5 @@ The `hooks/` directory contains custom git hooks for various Git operations. Bel
 Set the `core.hooksPath` configuration locally in your Git repository:
 
 ```bash
-git config --local core.hooksPath hooks
+git config --local core.hooksPath $(realpath hooks)
 ```

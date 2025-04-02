@@ -1,2 +1,2 @@
 #!/bin/sh
-echo "applypatch-msg"
+echo "[git-hooks] applypatch-msg"

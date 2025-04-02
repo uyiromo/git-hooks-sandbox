@@ -1,0 +1,2 @@
+#!/bin/sh
+echo "[git-hooks] push-to-checkout"

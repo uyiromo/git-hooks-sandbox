@@ -1,2 +1,8 @@
 #!/bin/sh
 echo "[git-hooks] sendemail-validate"
+echo "  argc: $#"
+index=0
+for arg in "$@"; do
+    echo "  argv[$index]: $arg"
+    index=$((index + 1))
+done
